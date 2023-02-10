@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const LandingPage = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="landing-page">
+      <header className="header">
+        <h1 className="header-title">Sistema do Guga</h1>
       </header>
+      <footer className="footer">
+        <p className="footer-text">Copyright &copy; 2023</p>
+      </footer>
     </div>
   );
-}
+};
 
-export default App;
+export default LandingPage;
